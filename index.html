@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!-- Cabeçalho e Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F4Bank - Seu banco digital</title>
+    <link rel="shortcut icon" type="image/png" href="./Imgs&Icons/f4bankFavicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    
+    
+    
+</head>
+
+
+<body>
+  <header class="nav-bar-sticky">
+    <nav class="nav-bar">
+        <div class="logo">
+            <img src="./Imgs&Icons/f4bank.png" alt="" style="width: 75px;">
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#principal" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#nossos-produtos" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#bonus-section" class="nav-link"> Indique e Ganhe</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link"> Fale Conosco</a></li>
+            </ul>
+        </div>
+        <div class="login-button">
+            <button><a href="#">Entrar</a></button>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="./Imgs&Icons/img-menu/menu_white_36dp.svg" alt="" style="width: 24px; height: 24px;"></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="#principal" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="#nossos-produtos" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="#bonus-section" class="nav-link"> Indique e Ganhe</a></li>
+        <li class="nav-item"><a href="#contato" class="nav-link"> Fale Conosco</a></li>
+    </ul>
+
+        <div class="login-button">
+            <button><a href="#">Entrar</a></button>
+        </div>
+    </div>
+</header>
+    <main>
+      <!-- Seção Principal -->
+      <section id="principal">
+        <div id="unindo-financas">
+          <div class="image-container">
+            <img src="./Imgs&Icons/pexels-andrea-piacquadio-3823542.jpeg" alt="jovem e idoso conectados" class="main-image">
+            <div id="unindo-financas-e-conexoes">
+              <h2>F4Bank: o banco que conecta você ao mundo e às pessoas que importam.</h2>
+              <button id="botao-abrir-conta">Abrir conta digital</button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Seção Sua Ponte Financeira -->
+        <div class="sua-ponte-financeira">
+                  
+            <div class="image-container">
+              <img src="./Imgs&Icons/como-montar-um-banco-digital.jpg" alt="celular e simbolos financeiros" class="about-image">
+              <div id="texto-sua-ponte">
+                <h2>F4Bank: a sua ponte financeira para o mundo e para a sua comunidade.</h2>
+                <button type="submit">Cadastre-se</button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Seção Experiência -->
+          <div class="experience-section">
+            <div class="image-container">
+                <img src="./Imgs&Icons/pessoa preta finanças.jpeg" alt="organizacao financeira" class="experience-image">
+                <div id="texto-experiencia">
+                    <h2>Mais do que um banco, uma experiência</h2>
+                    <button>Seja nosso cliente</button>
+                </div>
+            </div>
+        </div>
+        
+        
+                <!-- Seção Nossos Produtos -->
+                <section id="nossos-produtos">
+                  <ul>
+                      <div class="conta-digital-gratis product-section conta-digital-image-container">
+                          <div class="conta-digital-text">
+                              <li>Conta digital sem taxa de manutenção</li>
+                              <div class="call-to-action">
+                                  <button>Abra sua conta</button>
+                              </div>
+                          </div>
+                          <picture><img src="./Imgs&Icons/conta digital gratis 2.jpeg" alt="conta digital gratis" class="conta-digital-product-image"></picture>
+                      </div>
+                      <div class="investimentos product-section investimentos-image-container">
+                          <div class="investimentos-text">
+                              <li>Investimentos em fundos, títulos e plataforma completa</li>
+                              <div class="call-to-action">
+                                  <button>Invista conosco</button>
+                              </div>
+                          </div>
+                          <picture><img src="./Imgs&Icons/analise de mercado.jpg" alt="analise de mercado" class="investimentos-product-image"></picture>
+                      </div>
+                      <div class="emprestimos product-section emprestimos-image-container">
+                          <div class="emprestimos-text">
+                              <li>Empréstimos pessoais e empresariais</li>
+                              <div class="call-to-action">
+                                  <button>Opções de empréstimo</button>
+                              </div>
+                          </div>
+                          <picture><img src="./Imgs&Icons/emprestimos pessoais.jpeg" alt="emprestimos pessoais" class="emprestimos-product-image"></picture>
+                      </div>
+                      <div class="cartoes product-section cartoes-image-container">
+                          <div class="cartoes-text">
+                              <li>Cartões de crédito com benefícios exclusivos</li>
+                              <div class="call-to-action">
+                                  <button type="button">Peça seu cartão</button>
+                              </div>
+                          </div>
+                          <picture><img src="./Imgs&Icons/cartao gratis.jpeg" alt="cartão grátis" class="cartoes-product-image"></picture>
+                      </div>
+                  </ul>
+              </section>
+              
+              
+              
+              <!-- Seção Bônus para Indicação -->
+              <section id="bonus-section">
+                <aside>
+                  <article>
+                    <!-- <h3>Bônus para indicação</h3> -->
+                    <div class="bonus product-section bonus-image-container">
+                      <div class="bonus-text">
+                        <p>Bônus incríveis ao indicar amigos e familiares para o F4Bank!</p>
+                        <div class="call-to-action">
+                          <button type="button">Indique e ganhe</button>
+                        </div>
+                      </div>
+                      <picture><img src="./Imgs&Icons/familia preta conectada.jpg" alt="familia preta conectada" class="bonus-product-image"></picture>
+                    </div>
+                  </article>
+                </aside>
+              </section>
+        
+              <!-- Seção Contato -->
+              <section id="contato">
+                <h2>Contato</h2>
+                <br>
+                <form action="#" id="formulario-contato" class="contact-form" onsubmit="event.preventDefault(); checkInput();">
+
+                    <label for="nome">Nome Completo</label>
+                    <br>
+                    <br>
+                    <input placeholder="Insira seu nome completo" type="text" name="nome" id="nome" required>
+                    <br>
+                    <br>
+                    <label for="email">E-mail</label>
+                    <br>
+                    <br>
+                    <input placeholder="Insira seu e-mail" type="text" name="email" id="email" required>
+                   
+            <br>
+            <br>
+            <label for="assunto">Assunto</label>
+            <br>
+            <br>
+            <input placeholder="Insira o assunto" type="text" name="assunto" id="assunto" required>
+            <br>
+            <br>
+            <label for="nome">Mensagem</label>
+            <br>
+            <br>
+            <textarea placeholder="Insira sua mensagem" type="text" name="mensagem" id="mensagem" required></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <br>
+    <br>
+    
+      <!-- Rodapé -->
+      <footer>
+        <!-- Informações do Banco -->
+        <section id="informações do banco">
+          <div class="logo-container">
+            <img src="./Imgs&Icons/f4bank.png" alt="Logo F4Bank" id="icone-final">
+        </div>
+        <div class="contact-info">
+          <br>
+          <p>Email: contato@f4bank.com</p>
+          <br>
+          <p>Telefone: 0800-555-0707</p>
+          <br>
+          <p>Endereço: Av. Stark, 42, Bairro Midas, Cidade de Wakanda, Planeta Asgard, CEP: 12345-678</p>
+        </div>
+      </section>
+    
+      <!-- Links Importantes
+      <section id="links-importantes">
+        <div class="links-container">
+          <a href="#quem-somos">Quem somos</a>
+          <a href="#nossos-produtos">Nossos produtos/serviços</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </section> -->
+      <!-- Redes Sociais Rodapé -->
+      <section id="redes-sociais-rodape">
+        <div class="social-links">
+          <a href="https://www.facebook.com/F4Bank" target="_blank"> <img src="./Imgs&Icons/fb icon.png" alt="facebook"  style="width: 50px;"></a>
+          <a href="https://twitter.com/F4Bank" target="_blank"><img src="./Imgs&Icons/tt icon.png" alt="twitter" style="width: 50px;"></a>
+          <a href="https://www.linkedin.com/company/F4Bank" target="_blank"><img src="./Imgs&Icons/in icon.png" alt="linkedin" style="width: 50px;"></a>
+        </div>
+      </section>
+      <!-- Direitos Autorais -->
+      <section id="direitos-autorais">
+        <div class="copyright">
+          <p>&copy; 2023 F4Bank. Todos os direitos reservados.</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
+        
