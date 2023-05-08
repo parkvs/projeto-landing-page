@@ -130,3 +130,36 @@ A sua Landing Page deve conter:
 4.  Abra um novo Pull Request (PR) com a frase **PR para correção**. Caso não saiba como fazê-lo, assista a esse [vídeo](https://www.canva.com/design/DAFY4nS5W2c/t92uFMR61YtmA7bCwj2S1Q/watch).
 5.  Envie o link do seu PR e do surge no [formulário de entrega](https://forms.gle/nrh5KpDhAMwXBjC29).
 
+
+LINK DO DEPLOY
+https://64594de8063c6c1e6e93f3c0--thunderous-cat-4cf982.netlify.app/
+
+
+PRINTS MODO PC 
+
+![SITE PC](./Imgs%26Icons/prints%20de%20pc%20e%20celular/LANDING%20PAGE%2001%20PC.png)
+
+![SITE PC](./Imgs%26Icons/prints%20de%20pc%20e%20celular/LANDING%20PAGE%2002%20PC.png)
+
+![SITE PC](./Imgs%26Icons/prints%20de%20pc%20e%20celular/LANDING%20PAGE%2003%20PC.png)
+
+![SITE PC](./Imgs%26Icons/prints%20de%20pc%20e%20celular/LANDING%20PAGE%2004%20PC.png)
+
+![SITE PC](./Imgs%26Icons/prints%20de%20pc%20e%20celular/LANDING%20PAGE%2005%20PC.png)
+
+
+![SITE CEL](./Imgs%26Icons/prints%20de%20pc%20e%20celular/LANDING%20PAGE%20CEL%2001.jpeg)
+
+![SITE CEL](./Imgs%26Icons/prints%20de%20pc%20e%20celular/LANDING%20PAGE%20CEL%2002.jpeg)
+
+![SITE CEL](./Imgs%26Icons/prints%20de%20pc%20e%20celular/LANDING%20PAGE%20CEL%2003.jpeg)
+
+![SITE CEL](./Imgs%26Icons/prints%20de%20pc%20e%20celular/LANDING%20PAGE%20CEL%2004.jpeg)
+
+![SITE CEL](./Imgs%26Icons/prints%20de%20pc%20e%20celular/LANDING%20PAGE%20CEL%2005.jpeg)
+
+![SITE CEL](./Imgs%26Icons/prints%20de%20pc%20e%20celular/LANDING%20PAGE%20CEL%2006.jpeg)
+
+
+
+

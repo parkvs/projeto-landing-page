@@ -1,0 +1,522 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+header {
+  background-color: #1e88e5 ;
+  box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  color: black;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: white;
+  font-weight: 400;
+}
+
+.login-button button {
+  background-color: #fc934b;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 50px;
+  height: 35px;
+  width: 120px;
+  transition: background-color 0.3s, transform 0.3s;
+  padding-left: 10px;
+  padding-right: 120px;
+}
+
+.login-button button:hover{
+  background-color: #ff8800;
+  color: black;
+  transform: scale(1.05);
+  cursor: pointer;
+  
+}
+
+
+.login-button button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+img {
+  width: 100vw;
+}
+
+#sub-icone {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+a {
+  text-decoration: none;
+}
+
+#unindo-financas .image-container {
+  position: relative;
+}
+
+#unindo-financas-e-conexoes {
+  position: absolute;
+  top: 8.3%;
+  padding-right: 10vw;
+  margin-left: 16%;
+  color: #fc934b;
+  font-size: 28px;
+  text-align: left;
+}
+
+
+.sua-ponte-financeira .image-container {
+  position: relative;
+}
+
+#texto-sua-ponte {
+  position: absolute;
+  top: 19.3%;
+  padding-left:62%;
+  margin-right: 3%;
+  color: white;
+  font-size: 28px;  
+  text-align: left;
+}
+#texto-experiencia {
+  position: absolute;
+  top: 20.3%;
+  padding-right: 40%;
+  margin-left: 16%;
+  color: #1e88e5;
+  font-size: 28px;
+}
+
+.experience-section .image-container {
+  position: relative;
+}
+
+.conta-digital-gratis.product-section.conta-digital-image-container {
+  position: relative;
+}
+
+.conta-digital-text {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  color: black;
+  font-size: 28px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.investimentos.product-section.investimentos-image-container {
+  position: relative;
+}
+
+.investimentos-text {
+  position: absolute;
+  top: 4%;
+  left: 60%;
+  color: white;
+  font-size: 28px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.emprestimos.product-section.emprestimos-image-container {
+  position: relative;
+}
+
+.emprestimos-text {
+  position: absolute;
+  top: 20%;
+  right: 60%;
+  color: black;
+  font-size: 28px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+
+
+.cartoes.product-section.cartoes-image-container {
+  position: relative;
+}
+
+.cartoes-text {
+  position: absolute;
+  top: 20%;
+  right: 60%;
+  color: white;
+  font-size: 28px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+
+.bonus-image-container {
+  position: relative;
+  }
+  
+  .bonus-image-container img {
+  width: 100%;
+  }
+  
+  .bonus-text {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  color: black;
+  font-size: 28px;
+  text-align: left;
+  font-weight: bold;
+  }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #4a4a4a;
+  background-color: #fce9d3;
+  
+}
+
+footer {
+  background-color: #4a4a4a;
+  color: white;
+}
+
+#links-importantes{
+  color: white;
+}
+
+#redes-sociais-rodape{
+  color: white;
+}
+
+#icone-final {
+  width: 75px;
+}
+
+button {
+  background-color: #fc934b;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 50px;
+  height: 35px;
+  width: 220px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #1e88e5;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.blue-number {
+  color: #1e88e5;
+}
+
+#formulario-contato{
+  background-color: white;
+  color: #4a4a4a;
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+}
+
+textarea {
+  width: 25%; 
+  height: 150px; 
+  resize: none; 
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+/* #principal h2,
+#principal img {
+  margin-bottom: 1rem;
+} */
+
+/* formulário de contato  */
+
+#contato {
+  background-color: #fce9d3;
+  padding: 50px;
+}
+
+#formulario-contato label {
+  color: #4a4a4a;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#formulario-contato input[type="text"],
+#formulario-contato textarea {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #4a4a4a;
+  background-color: lightblue;
+}
+
+#formulario-contato textarea {
+  height: 150px;
+  resize: none;
+  background-color: lightblue;}
+
+#formulario-contato button[type="submit"] {
+  background-color: #fca36b;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 200px;
+}
+
+#formulario-contato button[type="submit"]:hover {
+  background-color: dodgerblue;
+  transform: scale(1.05);
+}
+
+
+
+/* fim do formulário de contato  */
+
+footer a {
+  color: #fff; 
+  text-decoration: none; 
+}
+
+footer a:hover {
+  color: #1e88e5; 
+  text-decoration: underline; 
+}
+.social-links {
+  display: flex;
+  justify-content: right;
+  gap: 15px;
+  padding: 20px 0;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.social-icon:hover {
+  color: #1e88e5;
+  border-color: #1e88e5;
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+#icone-final {
+  width: 75px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.links-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-links a {
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.social-links a:hover {
+  color: #1e88e5;
+  text-decoration: none;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+a:hover {
+  color: #1e88e5;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 500;
+}
+ 
+
+
+@media screen and (max-width: 736px) {
+  
+  .nav-bar {
+    padding: 1.5rem 4rem;
+}
+.nav-item {
+    display: none;
+}
+.login-button {
+    display: none;
+}
+.mobile-menu-icon {
+    display: block;
+}
+.mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+}
+.mobile-menu .login-button {
+    display: block;
+    padding: 1rem 2rem;
+}
+.mobile-menu .login-button button {
+    width: 100%;
+}
+.open {
+    display: block;
+} 
+
+.menu-icon-img {
+  width: 24px;
+  height: 24px;
+}
+
+  
+  h2, h3, ul, li, p{
+    font-size: 14px;
+  }
+  
+
+
+  label{
+    font-size: 4px;
+  }
+  
+  button {
+    height: auto;
+    width: auto;
+    font-size: 14px;
+
+    
+  }
+
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
